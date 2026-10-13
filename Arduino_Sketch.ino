@@ -17,7 +17,7 @@ const char* password = "YOUR_WIFI_PASSWORD";
 const char* hotspotSSID     = "YOUR_HOTSPOT_SSID";
 const char* hotspotPassword = "YOUR_HOTSPOT_PASSWORD"; // min 8 characters
 
-WiFiServer server(80);
+WiFiServer server(80); 
 
 // ===================== Servo Setup =====================
 /*
