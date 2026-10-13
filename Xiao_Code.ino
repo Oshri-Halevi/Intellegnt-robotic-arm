@@ -8,8 +8,8 @@ SSCMA AI;
 
 // ===== User Config =====
 static const char* class_names[]   = {"Red", "Black"};
-static const char* ssid            = "ArduinoHotSpot";
-static const char* password        = "12345678";
+static const char* ssid     = "YOUR_WIFI_SSID";
+static const char* password = "YOUR_WIFI_PASSWORD";
 static const char* serverUrlBase   = "http://192.168.4.1/color?value=";
 
 static const int   DETECT_THRESHOLD   = 85;     // %
