@@ -6,15 +6,16 @@ void catchCube();
 void dropIntoRed();
 void dropIntoBlack();
 // ===================== CONFIG =====================
-#define USE_HOTSPOT true   // true = create AP "ArduinoHotSpot", false = join WiFi
+#define USE_HOTSPOT true   // true = create AP (hotspot), false = join WiFi
 
 // ---- WiFi (STA) ----
-const char* ssid     = "************"; // desired wifi
-const char* password = "***********";
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 // ---- WiFi (AP) ----
-const char* hotspotSSID     = "ArduinoHotSpot";
-const char* hotspotPassword = "12345678";
+// Must match the ssid/password configured on the XIAO ESP32-C3
+const char* hotspotSSID     = "YOUR_HOTSPOT_SSID";
+const char* hotspotPassword = "YOUR_HOTSPOT_PASSWORD"; // min 8 characters
 
 WiFiServer server(80);
 
@@ -435,4 +436,3 @@ void updateServos() {
 void catchCube()     { beginSequence(SEQ_CATCH); }
 void dropIntoRed()   { beginSequence(SEQ_RED);   }
 void dropIntoBlack() { beginSequence(SEQ_BLACK); }
-
