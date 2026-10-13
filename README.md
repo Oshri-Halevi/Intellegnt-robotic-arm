@@ -22,7 +22,7 @@ The system combines **Arduino**, **ESP32**, and the **Seeed Grove Vision AI** mo
 
 - ## Usage
 
-### Overview
+### Overview 
 
 The system supports two main modes of operation:
 
