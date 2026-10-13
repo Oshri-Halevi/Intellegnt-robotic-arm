@@ -63,7 +63,7 @@ Ensure that any proposed changes maintain the modular and educational nature of 
 ## Acknowledgments
 
 **Supervisor:** Dvir Chakim  
-**Authors:** Adi Haim, Afik Aharon. 
+**Authors:** Oshri Halevi, Adi Haim, Afik Aharon. 
 **Institution:** Holon Institute of Technology (HIT)
 
 ### Inspiration
